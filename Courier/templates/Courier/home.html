@@ -1,0 +1,15 @@
+{%  extends 'Courier/main.html' %}
+{% block content %}
+    <div class="jumbotron bg-info">
+      <h1 class="display-4 text-primary">Welcome To Courier Parcel Delivery System</h1>
+      <p class="lead text-light">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <hr class="my-4">
+      <p class="lead text-light">It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg btn-block"  href="{% url 'dashboardPage' %}" role="button">Go To Admin Dashboard</a>
+        <a class="btn btn-primary btn-lg btn-block" href="/blog" role="button">Go To Blog</a>    
+      </p>
+    </div>
+{% endblock %}
+ 
+ 
